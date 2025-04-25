@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.10"
+
+install:
+  - pip3 install --upgrade python-telegram-bot
+
+script:
+  - git clone https://github.com/spytherwo/one.git
+  - cd one
+  - nohup python3 terminal.py &￼Enter
